@@ -13,3 +13,4 @@
 
 Route::get('/proxy',ProxyController::class.'@index');
 Route::get('/factory',FactoryController::class.'@index');
+Route::get('Facade',FacadeController::class.'@index');
