@@ -1,11 +1,6 @@
 <?php
 
-/**
- * Created by PhpStorm.
- * User: chanu
- * Date: 2017/06/17
- * Time: 19:47
- */
+
 namespace App\Service\Factory\TableFactory;
 use App\Service\Factory\Link;
 
