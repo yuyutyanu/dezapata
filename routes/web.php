@@ -16,3 +16,4 @@ Route::get('/factory',FactoryController::class.'@index');
 Route::get('/Facade',FacadeController::class.'@index');
 Route::get('/Singleton',SingletonController::class.'@index');
 Route::get('/Composite',CompositeController::class.'@index');
+Route::get('/Prototype',PrototypeController::class.'@index');
