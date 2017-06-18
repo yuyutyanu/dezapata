@@ -22,9 +22,6 @@ class PrinterProxy implements Printable
         $this->className = $className;
     }
 
-    /**
-     * @param mixed $name
-     */
     public function setPrinterName($name)
     {
         if(!empty($this->real)){
@@ -33,9 +30,7 @@ class PrinterProxy implements Printable
         $this->printerName = $name;
     }
 
-    /**
-     * @return mixed
-     */
+
     public function getPrinterName()
     {
         return $this->printerName;

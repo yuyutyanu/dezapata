@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: chanu
- * Date: 2017/06/17
- * Time: 1:36
- */
 
 namespace App\Http\Controllers;
 use App\Service\Proxy\Printable;
