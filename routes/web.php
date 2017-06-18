@@ -15,3 +15,4 @@ Route::get('/proxy',ProxyController::class.'@index');
 Route::get('/factory',FactoryController::class.'@index');
 Route::get('/Facade',FacadeController::class.'@index');
 Route::get('/Singleton',SingletonController::class.'@index');
+Route::get('/Composite',CompositeController::class.'@index');
